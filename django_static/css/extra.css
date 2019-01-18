@@ -1,0 +1,77 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: url('../img/escheresque.png');
+}
+
+th.center-text, td.center-text {
+	text-align:center;
+}
+
+th.align-right, td.align-right {
+text-align: right;
+}
+
+.clear {
+clear: both;
+}
+
+.errorlist {
+  color: #b94a48;
+}
+
+ul.errorlist{
+    list-style: none;
+}
+
+a.errorlist:hover,
+a.errorlist:focus {
+  color: #953b39;
+}
+
+th.total, td.total {
+  text-align: right;
+  background-color: lightgray
+}
+
+/* add top margin */
+.top-buffer { margin-top:20px; }
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+footer, .push {
+	height: 325px; /* '.push' must be the same height as 'footer' */
+	clear: both;
+}
+
+
